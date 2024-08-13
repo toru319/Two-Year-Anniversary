@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('https://media.istockphoto.com/id/515719367/ja/ストックフォト/で作られた美しい花の背景色フィルター.jpg?s=612x612&w=0&k=20&c=8Mr83io_HSmbHnIKWehnDOrqHi7iXd57K8mjx1zuePA='); /* 背景画像を設定 */
+    background-size: cover; /* 画面全体を覆う */
+    background-color: #f0f0f0;
+}
+
+#countdown-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(240, 156, 205, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    z-index: 1;
+    color: white; /* 文字色を白に設定 */
+}
+
+#timer {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.photo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0.8;
+    transition: opacity 2s;
+}
