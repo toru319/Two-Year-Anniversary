@@ -75,8 +75,8 @@ document.addEventListener('DOMContentLoaded', function() {
         setInterval(updateCountdown, 1000);
 
         const photos = [
-        '/写真/2023-04-18_08-34-26_527.jpeg',
-        'Project1/写真/2023-05-05_21-28-30_946.jpeg',
+        '/main/写真/2023-04-18_08-34-26_527.jpeg',
+        '/main/写真/2023-05-05_21-28-30_946.jpeg',
         '/Users/toru/個人用/プログラミング練習/JavaScript/Project1/写真/2023-05-05_21-28-34_540.jpeg',
         '/Users/toru/個人用/プログラミング練習/JavaScript/Project1/写真/2023-05-05_21-28-57_888.jpeg',
         '/Users/toru/個人用/プログラミング練習/JavaScript/Project1/写真/2023-05-05_21-29-15_255.jpeg',
